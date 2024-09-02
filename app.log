@@ -1,0 +1,6 @@
+2024-08-31 20:51:50,865 - __main__ - INFO - Table 'predictions' created or already exists.
+2024-08-31 20:52:21,380 - __main__ - INFO - Serving root page
+2024-08-31 20:53:21,177 - __main__ - INFO - Received prediction request with data: {'sex': 1, 'length': 1.325, 'diameter': 1.025, 'height': 0.33, 'weight': 20.87, 'shucked_weight': 9.7, 'viscera_weight': 4.02, 'shell_weight': 5.2}
+2024-08-31 20:53:21,179 - __main__ - INFO - Prediction value: 8.578679126317668
+2024-08-31 20:53:21,183 - __main__ - INFO - Prediction stored in the database.
+2024-08-31 20:53:52,843 - __main__ - INFO - Fetched 2 predictions from the database.

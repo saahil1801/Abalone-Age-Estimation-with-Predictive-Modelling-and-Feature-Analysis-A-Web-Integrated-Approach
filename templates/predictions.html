@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predictions</title>
+</head>
+<body>
+    <h1>Predictions</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Input Data</th>
+                <th>Prediction</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for prediction in predictions %}
+            <tr>
+                <td>{{ prediction.id }}</td>
+                <td>
+                    <ul>
+                    {% for key, value in prediction.input_data.items() %}
+                        <li>{{ key }}: {{ value }}</li>
+                    {% endfor %}
+                    </ul>
+                </td>
+                <td>{{ prediction.prediction }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="/">Go Back to Input Page</a>
+</body>
+</html>
