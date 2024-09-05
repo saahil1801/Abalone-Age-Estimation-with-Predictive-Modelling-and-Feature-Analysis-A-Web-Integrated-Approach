@@ -4,3 +4,4 @@ random_forest_model.pkl
 venv/
 app.py
 main1.ipynb
+mainreg.ipynb
